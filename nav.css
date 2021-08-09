@@ -1,0 +1,64 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    
+    z-index: 10;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    height: 7%;
+    background-color: white;
+    
+}
+
+.navbar-brand {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav-link {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+#coustomer {
+    background-image: url(https://preview.uideck.com/items/consult/assets/images/header-hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+table {
+    margin-top: 10rem;
+}
+
+.header-container {
+    margin-top: 3.5rem;
+}
+ 
+ 
+ @media (max-width: 768px) {
+     .mobile-nav {
+         background-color: gray;
+         position: relative;
+         z-index: 10;
+         height: 200px;
+         border-radius: 16px;
+         align-items: center;
+
+    }
+
+    .link-container {
+        margin-top: 3rem;
+    }
+ }
